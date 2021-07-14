@@ -34,5 +34,5 @@ Feature: Wikipedia search feature
 #      | Bill Gates   | Bill Gates         | Bill Gates    |
 #      | Chuck Norris | Chuck Norris       | Chuck Norris  |
 #      | Marie Curie  | Marie Curie        | Marie Curie   |
-      | Recep tayyip erdogan| receptayyip |Recep Tayyip Erdogan|
+      | Recep tayyip erdogan| Recep Tayyip Erdoğan | Tayyip Erdoğan|
 

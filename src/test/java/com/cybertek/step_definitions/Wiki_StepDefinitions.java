@@ -45,15 +45,16 @@ public class Wiki_StepDefinitions {
         String expectedHeaderText= arg0;
 
         //Checking the context of the web element
-        System.out.println(actualHeaderText);
-        System.out.println(expectedHeaderText+"expectedHeader");
+
+
+        System.out.println("actualHeaderText = " + actualHeaderText);
+        System.out.println("expectedHeaderText = " + expectedHeaderText);
         Assert.assertTrue(actualHeaderText.equalsIgnoreCase(expectedHeaderText));
 
         //Checking if the web element displayed or not
         Assert.assertTrue(wikiPage.mainHeader.isDisplayed());
 
-        //BREAK UNTIL 2.22PM CST
-        //BREAK UNTIL 3.22PM EST
+
 
     }
 }
